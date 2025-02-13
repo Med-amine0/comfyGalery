@@ -1,0 +1,143 @@
+ponyxl:
+  artstyle:
+    SKIP:
+      - " "
+    experimental:
+      experimental:
+      thickness:
+        - "(big breasts:1.3), (thick thighs:1.3), (wide hips:1.2), (curvy:1.3), (nam:1.1), eyeliner, full lips, big eyes"
+      jujunaught_style:
+        - "jujunaught"
+      hinata_hyuuga:
+        - "hyuuga_hinata, naruto_(series)"
+      hyuuga_hanabi:
+        - "hyuuga_hanabi, naruto_(series)"
+      naruko:
+        - "naruko_(naruto), naruto_(series), genderswap_(mtf)"
+      tsunade:
+        - "tsunade_(naruto), naruto_(series)"
+      uzumaki_kushina:
+        - "naruto_(series), naruto_shippuuden, uzumaki_kushina"
+      samui:
+        - "samui_(naruto), naruto_(series)"
+      shizune:
+        - "shizune_(naruto), naruto_(series)"
+      sakura_haruno:
+        - "haruno_sakura, naruto_(series)"
+      temari:
+        - "temari_(naruto), naruto_(series)"
+      yamanaka_ino:
+        - "yamanaka_ino, naruto_(series)"
+      uchiha_sarada:
+        - "uchiha_sarada, naruto_(series)"
+      nagatoro_hayase:
+        - "ijiranaide_nagatoro-san, nagatoro_hayase"
+      akimichi_chouchou:
+        - "akimichi_chouchou, naruto_(series)"
+      bulma:
+        - "bulma, dragon_ball_z"
+      chi-chi:
+        - "chi-chi_(dragon_ball), dragon_ball_z"
+      videl:
+        - "videl, dragon_ball_z"
+      android_18:
+        - "android_18, dragon_ball_z"
+      cheelai:
+        - "cheelai, dragon_ball, dragon_ball_super, dragon_ball_super_broly"
+      pan:
+        - "pan_(dragon_ball), dragon_ball_gt, giru_(dragon_ball)"
+      vados:
+        - "vados_(dragon_ball), dragon_ball, dragon_ball_super"
+      uraraka_ochaco:
+        - "uraraka_ochaco, boku_no_hero_academia"
+      ashido_mina:
+        - "ashido_mina, boku_no_hero_academia"
+      toga_himiko:
+        - "toga_himiko, boku_no_hero_academia"
+      bakugou_mitsuki:
+        - "bakugou_mitsuki, boku_no_hero_academia"
+      shihouin_yoruichi:
+        - "shihouin_yoruichi, bleach"
+      matsumoto_rangiku:
+        - "matsumoto_rangiku, bleach"
+      kuchiki_rukia:
+        - "kuchiki_rukia, bleach"
+      hikifune_kirio:
+        - "hikifune_kirio, bleach"
+      unohana_retsu:
+        - "unohana_retsu, bleach"
+      kurotsuchi_nemu:
+        - "kurotsuchi_nemu, bleach"
+      princess_zelda:
+        - "princess_zelda, the_legend_of_zelda"
+      chel:
+        - "chel, the_road_to_el_dorado"
+      korra:
+        - "korra, avatar_legends"
+      asami_sato:
+        - "asami_sato, avatar_legends"
+      azula:
+        - "azula, avatar_legends"
+      shego:
+        - "(1futa:1.2), shego, kim_possible_(series), (beautiful face:1.1)"
+      raven:
+        - "raven_(dc), dc_comics, teen_titans"
+      maddie_fenton:
+        - "maddie_fenton, danny_phantom_(character)"
+      nami:
+        - "nami_(one_piece), one_piece"
+      nico_robin:
+        - "nico_robin, one_piece"
+      boa_hancock:
+        - "boa_hancock, one_piece"
+      kibutsuji_muzan:
+        - "kibutsuji_muzan_(female), kimetsu_no_yaiba"
+      kanroji_mitsuri:
+        - "kanroji_mitsuri, kimetsu_no_yaiba"
+      kochou_shinobu:
+        - "kochou_shinobu, kimetsu_no_yaiba"
+      gwen_tennyson:
+        - "ben_10, gwen_tennyson"
+      bubblegum:
+        - "princess_bonnibel_bubblegum, adventure_time"
+      marceline_abadeer:
+        - "marceline_abadeer, adventure_time"
+      fiona:
+        - "fionna_campbell, adventure_time"
+      chun-li:
+        - "street_fighter, street_fighter_zero_(series), chun-li"
+      han_juri:
+        - "street_fighter, street_fighter_v, han_juri"
+      poison:
+        - "final_fight, street_fighter, poison_(final_fight)"
+      jessie:
+        - "pokemon_(anime), jessie_(pokemon)"
+      james:
+        - "pokemon_(anime), james_(pokemon), otoko_no_ko"
+      agatsuma_zenitsu:
+        - "agatsuma_zenitsu, kimetsu_no_yaiba, small_breasts, otoko_no_ko"
+      kamado_tanjirou:
+        - "kamado_tanjirou, kimetsu_no_yaiba, small_breasts, otoko_no_ko"
+      sanji:
+        - "sanji_(one_piece), one_piece, small_breasts, otoko_no_ko"
+      trafalgar_law:
+        - "trafalgar_law, one_piece, small_breasts, otoko_no_ko"
+      uzumaki_naruto:
+        - "uzumaki_naruto, small_breasts ,otoko_no_ko"
+      uchiha_sasuke:
+        - "uchiha_sasuke, naruto_(series), small_breasts , otoko_no_ko"
+      uzumaki_boruto:
+        - "uzumaki_boruto, naruto_(series), small_breasts , otoko_no_ko"
+      link:
+        - "link, the_legend_of_zelda, the_legend_of_zelda:_breath_of_the_wild, link, gerudo_set_(zelda), small_breasts , otoko_no_ko"
+      renamon:
+        - "digimon, renamon"
+      coco:
+        - "crash_bandicoot_(series), coco_bandicoot"
+      judy_hopps:
+        - "zootopia, judy_hopps"
+      ankh:
+        - "animal_crossing, ankh_(animal_crossing)"
+      soraka:
+        - "league_of_legends, soraka_(league_of_legends)"
+
