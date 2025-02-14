@@ -1,0 +1,47 @@
+ponyxl:
+  artstyle:
+    SKIP:
+      - " "
+    experimental:
+      renamon:
+        - "digimon, renamon"
+      chel:
+        - "chel, the_road_to_el_dorado"
+      korra:
+        - "korra, avatar_legends"
+      asami_sato:
+        - "asami_sato, avatar_legends"
+      azula:
+        - "azula, avatar_legends"
+      shego:
+        - "(1futa:1.2), shego, kim_possible_(series), (beautiful face:1.1)"
+      raven:
+        - "raven_(dc), dc_comics, teen_titans"
+      maddie_fenton:
+        - "maddie_fenton, danny_phantom_(character)"      
+      gwen_tennyson:
+        - "ben_10, gwen_tennyson"
+      bubblegum:
+        - "princess_bonnibel_bubblegum, adventure_time"
+      marceline:
+        - "marceline_abadeer, adventure_time"
+      fiona:
+        - "fionna_campbell, adventure_time"
+      chun-li:
+        - "street_fighter, street_fighter_zero_(series), chun-li"
+      han_juri:
+        - "street_fighter, street_fighter_v, han_juri"
+      poison:
+        - "final_fight, street_fighter, poison_(final_fight)"
+      jessie:
+        - "pokemon_(anime), jessie_(pokemon)"
+      james:
+        - "pokemon_(anime), james_(pokemon), otoko_no_ko"
+      coco:
+        - "crash_bandicoot_(series), coco_bandicoot"
+      judy_hopps:
+        - "zootopia, judy_hopps"
+      ankha:
+        - "animal_crossing, ankh_(animal_crossing)"
+      soraka:
+        - "league_of_legends, soraka_(league_of_legends)"

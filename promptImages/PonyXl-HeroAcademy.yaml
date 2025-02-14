@@ -1,0 +1,13 @@
+ponyxl:
+  artstyle:
+    SKIP:
+      - " "
+    experimental:
+      uraraka_ochaco:
+        - "uraraka_ochaco, boku_no_hero_academia"
+      ashido_mina:
+        - "ashido_mina, boku_no_hero_academia"
+      toga_himiko:
+        - "toga_himiko, boku_no_hero_academia"
+      bakugou_mitsuki:
+        - "bakugou_mitsuki, boku_no_hero_academia"

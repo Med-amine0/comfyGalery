@@ -1,0 +1,23 @@
+ponyxl:
+  artstyle:
+    SKIP:
+      - " "
+    experimental:
+      nagatoro_hayase:
+        - "ijiranaide_nagatoro-san, nagatoro_hayase"
+      akimichi_chouchou:
+        - "akimichi_chouchou, naruto_(series)"
+      bulma:
+        - "bulma, dragon_ball_z"
+      chi-chi:
+        - "chi-chi_(dragon_ball), dragon_ball_z"
+      videl:
+        - "videl, dragon_ball_z"
+      android_18:
+        - "android_18, dragon_ball_z"
+      cheelai:
+        - "cheelai, dragon_ball, dragon_ball_super, dragon_ball_super_broly"
+      pan:
+        - "pan_(dragon_ball), dragon_ball_gt, giru_(dragon_ball)"
+      vados:
+        - "vados_(dragon_ball), dragon_ball, dragon_ball_super"

@@ -1,0 +1,15 @@
+ponyxl:
+  artstyle:
+    SKIP:
+      - " "
+    experimental:
+      nami:
+        - "nami_(one_piece), one_piece"
+      nico_robin:
+        - "nico_robin, one_piece"
+      boa_hancock:
+        - "boa_hancock, one_piece"
+      sanji:
+        - "sanji_(one_piece), one_piece, small_breasts, otoko_no_ko"
+      trafalgar_law:
+        - "trafalgar_law, one_piece, small_breasts, otoko_no_ko"

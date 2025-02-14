@@ -1,0 +1,17 @@
+ponyxl:
+  artstyle:
+    SKIP:
+      - " "
+    experimental:
+      shihouin_yoruichi:
+        - "shihouin_yoruichi, bleach"
+      matsumoto_rangiku:
+        - "matsumoto_rangiku, bleach"
+      kuchiki_rukia:
+        - "kuchiki_rukia, bleach"
+      hikifune_kirio:
+        - "hikifune_kirio, bleach"
+      unohana_retsu:
+        - "unohana_retsu, bleach"
+      kurotsuchi_nemu:
+        - "kurotsuchi_nemu, bleach"
