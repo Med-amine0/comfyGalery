@@ -5,10 +5,11 @@ from io import BytesIO
 import shutil
 import json
 import mimetypes
+import folder_paths  # Required for ComfyUI image handling
 
 datapath = os.path.join(os.path.dirname(__file__), 'promptImages')
 
-
+# [Keep all original route handlers unchanged]
 @PromptServer.instance.routes.get("/prompt_gallery/image")
 async def view_image(request):
     if "filename" in request.rel_url.query:
@@ -40,7 +41,6 @@ async def view_image(request):
                 return web.Response(body=content, content_type=content_type,
                                     headers={"Content-Disposition": f"filename=\"{filename}{ext}\""})
 
-        # print(f"[Prompt Gallery] Image not found: {os.path.join(base_path, filename)}") - turned off for spam reasons
         return web.Response(status=404)
 
     return web.Response(status=400)
@@ -103,7 +103,6 @@ async def view_yaml(request):
                 text = yaml.read()
                 return web.Response(text=text, content_type='text/html')
         except FileNotFoundError:
-            # print(f"YAML file not found: {fullpath}") cut down on needless noise
             return web.Response(text="", status=404)
         except Exception as e:
             print(f"Error reading YAML file {fullpath}: {str(e)}")
@@ -127,12 +126,42 @@ async def update_libraries(request):
         return web.Response(status=500, text=str(e))
 
 
-NODE_CLASS_MAPPINGS = {
+class LoadImageWithPrompt:
+    @classmethod
+    def INPUT_TYPES(cls):
+        input_dir = folder_paths.get_input_directory()
+        images = [f for f in os.listdir(input_dir) if f.endswith(('.png', '.jpg', '.jpeg', '.webp'))]
+        return {
+            "required": {
+                "image": (sorted(images), {"image_upload": True}),
+                "prompt_text": ("STRING", {"multiline": False, "rows": 1, "cols": 30}),  # Adding a text area
+            },
+        }
+    
+    CATEGORY = "image"
+    FUNCTION = "load_image"
+    RETURN_TYPES = ("IMAGE", "STRING",)
+    RETURN_NAMES = ("image", "prompt",)
+    
+    def load_image(self, image):
+        image_path = folder_paths.get_annotated_filepath(image)
+        #prompt = os.path.splitext(image)[0]  # Get filename without extension as prompt  
+        prompt = text
+        
+        # Automatically set the prompt_text to the filename prompt if not provided
+        if not prompt_text:
+            prompt_text = prompt
+            
+        i = folder_paths.LoadImage()(image)
+        return (i, prompt,)
 
+
+NODE_CLASS_MAPPINGS = {
+    "LoadImageWithPrompt": LoadImageWithPrompt
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
-
+    "LoadImageWithPrompt": "Load Image (With Prompt)"
 }
 
 WEB_DIRECTORY = "./web"
