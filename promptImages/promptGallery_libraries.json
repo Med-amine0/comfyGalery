@@ -3,70 +3,66 @@
   "libraries": [
     {
       "name": "PonyXl-artstyles.yaml",
-      "type": "Art Styles",
+      "type": "Styles",
       "skipLevels": 0,
       "sections": null,
       "order": 1
     },
     {
-      "name": "PonyXl-game_persona.yaml",
-      "type": "Game Characters",
+      "name": "PonyXl-Naruto.yaml",
+      "type": "Naruto Chars",
       "skipLevels": 0,
       "sections": null,
       "order": 2
     },
     {
-      "name": "PonyXl-show_persona.yaml",
-      "type": "Show Characters",
+      "name": "PonyXl-DBZ.yaml",
+      "type": "DBZ Chars",
       "skipLevels": 0,
       "sections": null,
       "order": 3
     },
     {
-      "name": "PonyXl-f-body.yaml",
-      "type": "Female Body",
-      "skipLevels": 1,
-      "sections": {
-        "body_race": "Race",
-        "body_form": "Build"
-      },
+      "name": "PonyXl-Bleach.yaml",
+      "type": "Bleach Chars",
+      "skipLevels": 0,
+      "sections": null,
       "order": 4
     },
     {
-      "name": "PonyXl-poses.yaml",
-      "type": "Poses",
+      "name": "PonyXl-OnePiece.yaml",
+      "type": "One Piece Chars",
       "skipLevels": 0,
       "sections": null,
-      "order": 7
+      "order": 5
     },
     {
-      "name": "PonyXl-expressions.yaml",
-      "type": "Expressions",
-      "skipLevels": 0,
-      "sections": null,
-      "order": 8,
-      "ignoreKey": "chara_expression"
-    },
-    {
-      "name": "PonyXl-scenes.yaml",
-      "type": "Scenes",
-      "skipLevels": 0,
-      "sections": null,
-      "order": 9
-    },
-    {
-      "name": "PonyXl-jobs.yaml",
-      "type": "Jobs",
+      "name": "PonyXl-HeroAcademy.yaml",
+      "type": "My Hero Academy Chars",
       "skipLevels": 0,
       "sections": null,
       "order": 6
     },
     {
-      "name": "PonyXl-other_persona.yaml",
-      "type": "Stereotypes",
+      "name": "PonyXl-Zelda.yaml",
+      "type": "Zelda Chars",
       "skipLevels": 0,
       "sections": null,
-      "order": 10
+      "order": 7
+    },
+    {
+      "name": "PonyXl-demon-slayer.yaml",
+      "type": "Demon Slayer Chars",
+      "skipLevels": 0,
+      "sections": null,
+      "order": 8
+    },
+    {
+      "name": "PonyXl-Toon.yaml",
+      "type": "Toon Chars",
+      "skipLevels": 0,
+      "sections": null,
+      "order": 9
     }
   ]
 }
