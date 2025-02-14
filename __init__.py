@@ -134,7 +134,6 @@ class LoadImageWithPrompt:
         return {
             "required": {
                 "image": (sorted(images), {"image_upload": True}),
-                "prompt_text": ("STRING", {"multiline": False, "rows": 1, "cols": 30}),  # Adding a text area
             },
         }
     
@@ -147,10 +146,6 @@ class LoadImageWithPrompt:
         image_path = folder_paths.get_annotated_filepath(image)
         #prompt = os.path.splitext(image)[0]  # Get filename without extension as prompt  
         prompt = text
-        
-        # Automatically set the prompt_text to the filename prompt if not provided
-        if not prompt_text:
-            prompt_text = prompt
             
         i = folder_paths.LoadImage()(image)
         return (i, prompt,)
